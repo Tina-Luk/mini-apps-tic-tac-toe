@@ -1,0 +1,24 @@
+#table {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+.square {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+#x-name {
+  font-size: 30px;
+  color: red;
+  text-decoration: underline;
+}
+
+#o-name {
+  font-size: 30px;
+  color: cyan;
+  text-decoration: underline;
+}
